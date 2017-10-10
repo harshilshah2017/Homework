@@ -19,6 +19,7 @@ if t = 10 or t = 7.50 or t = 5 then
   get b
     if b = 4 then
        put skip, "Your total is $", a*t, "."
+       put "You bought a total of ", a, " tickets!"
     end if
 end if
 if b = 10 or b = 7.50 or b = 5 then
@@ -28,6 +29,7 @@ if b = 10 or b = 7.50 or b = 5 then
   get d
     if d = 4 then
        put skip, "Your total is $", (c*b)+(a*t), "."
+       put "You bought a total of ", c+a, " tickets!"
     end if
 end if
 if d = 10 or d = 7.50 or d = 5 then
@@ -37,5 +39,6 @@ if d = 10 or d = 7.50 or d = 5 then
   get f
     if f = 4 then
        put skip, "Your total is $", (d*e)+(c*b)+(a*t), "."
+       put "You bought a total of ", e+c+a, " tickets!"
     end if
 end if
